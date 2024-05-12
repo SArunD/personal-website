@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sai's Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="mediaqueries.css" />
+		<link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+	</head>
+	<body>
+		<nav class="nav-bar">
+			<div class="nav-title">Sai Arun Daverpally</div>
+			<div class="nav-menu">
+				<div class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</div>
+			</div>
+			<div class="hamburger-menu">
+				<i id="menu-icon" class="bi bi-list" onclick="toggleMenu()"></i>
+				<div class="hamburger-links">
+					<li><a href="#about" onclick="toggleMenu()">About</a></li>
+					<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+					<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+					<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+				</div>
+			</div>
+		</nav>
+		<section id="profile">
+			<div class="profile-picture">
+				<img src="./assets/profile-pic.png" alt="Sai's Profile Picture" />
+			</div>
+			<div class="profile-details">
+				<p>Hello, I'm</p>
+				<h1 class="profile-h1">Sai Arun Daverpally</h1>
+				<p class="profile-p2">Aspiring Software Engineer</p>
+				<div class="btn-container">
+					<button
+						class="btn btn-color-1"
+						onclick="window.open('./assets/resume-2024.pdf')"
+					>
+						View Resume
+					</button>
+					<button class="btn btn-color-2" onclick="location.href='./#contact'">
+						Contact Me
+					</button>
+				</div>
+				<div class="socials-container">
+					<i
+						class="bi bi-linkedin"
+						onclick="window.open('https://www.linkedin.com/in/dav-saiarun/')"
+					></i>
+					<i
+						class="bi bi-github"
+						onclick="window.open('https://github.com/SArunD')"
+					></i>
+				</div>
+			</div>
+			<div class="arrow">
+				<i class="bi bi-caret-down" onclick="location.href='./#about'"></i>
+			</div>
+		</section>
+		<section id="about">
+			<p>Learn More Details</p>
+			<h2 class="about-h2">About Me</h2>
+			<div class="about-container">
+				<div class="about-picture">
+					<img src="./assets/about-pic.png" alt="Sai's About Picture" />
+				</div>
+				<div class="about-details">
+					<div class="about-cards">
+						<div class="about-card">
+							<i class="bi bi-award"></i>
+							<h3>Experience</h3>
+							<p>
+								<1 year <br />
+								Software Engineering
+							</p>
+						</div>
+						<div class="about-card">
+							<i class="bi bi-book"></i>
+							<h3>Education</h3>
+							<p>B.S. Computer Science<br />Georgia Institute of Technology</p>
+						</div>
+					</div>
+					<div class="about-information">
+						<p>
+							<!-- Lorem180 -->
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+							excepturi doloribus doloremque minus earum pariatur sit, iusto
+							necessitatibus ad repellat beatae natus ipsum. Quisquam nostrum ab
+							necessitatibus inventore voluptatem asperiores veniam porro
+							voluptatibus ipsa blanditiis? Quam unde velit consectetur expedita
+							et tenetur veniam aspernatur perferendis, sit eius temporibus
+							atque sint debitis molestiae vitae consequuntur facilis
+							praesentium perspiciatis quisquam! Vero modi sequi quae mollitia
+							alias dolore unde magni amet laborum odit voluptatum nostrum
+							obcaecati explicabo deleniti tempore, qui suscipit fuga
+							laudantium. Distinctio enim consequuntur laudantium molestias
+							soluta aliquid, temporibus fuga harum quaerat, minima itaque
+							dicta, tempora doloremque nam eius sed nobis alias officiis
+							aperiam explicabo non reiciendis saepe. Magni suscipit illum
+							beatae, quibusdam assumenda obcaecati doloremque soluta explicabo
+							ipsa voluptate dolore nemo quam quisquam, odio officiis itaque
+							maiores omnis expedita corporis aut voluptas magnam. Libero
+							recusandae itaque blanditiis aspernatur adipisci ipsa molestiae
+							iure dolore facere tempore porro dicta, nostrum repellendus unde
+							quo aliquid corporis quis placeat. Pariatur eum voluptatibus
+							tempore eaque quam repellat quod. Explicabo sapiente, et quos nam,
+							repudiandae reprehenderit, a soluta deserunt ad distinctio id
+							iusto dignissimos dolor perspiciatis.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="arrow">
+				<i class="bi bi-caret-up" onclick="location.href='./#'"></i>
+				<i class="bi bi-caret-down" onclick="location.href='./#skills'"></i>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="skills-details">
+				<p>Explore My</p>
+				<h2 class="skills-h2">Skills</h2>
+			</div>
+			<div class="skills-cards">
+				<div class="skills-card">
+					<h3>Programming Languages</h3>
+					<div class="skills-container">
+						<table class="skills-table">
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+										alt="Java"
+									/>
+								</td>
+								<td class="skills-p">Java<br /><span>Intermediate</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+										alt="Python"
+									/>
+								</td>
+								<td class="skills-p">Python<br /><span>Beginner</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+										alt="Javascript"
+									/>
+								</td>
+								<td class="skills-p">Javascript<br /><span>Beginner</span></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="skills-card">
+					<h3>Front-End</h3>
+					<div class="skills-container">
+						<table class="skills-table">
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+										alt="HTML"
+									/>
+								</td>
+								<td class="skills-p">HTML<br /><span>Intermediate</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+										alt="CSS"
+									/>
+								</td>
+								<td class="skills-p">CSS<br /><span>Intermediate</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+										alt="React"
+									/>
+								</td>
+								<td class="skills-p">React<br /><span>Beginner</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+										alt="Angular"
+									/>
+								</td>
+								<td class="skills-p">Angular<br /><span>Beginner</span></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="skills-card">
+					<h3>Back-End & Database</h3>
+					<div class="skills-container">
+						<table class="skills-table">
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+										alt="ExpressJS"
+									/>
+								</td>
+								<td class="skills-p">
+									ExpressJS<br /><span>Intermediate</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+										alt="MongoDB"
+									/>
+								</td>
+								<td class="skills-p">MongoDB<br /><span>Intermediate</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+										alt="Spring"
+									/>
+								</td>
+								<td class="skills-p">Spring<br /><span>Beginner</span></td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+										alt="MySQL"
+									/>
+								</td>
+								<td class="skills-p">MySQL<br /><span>Beginner</span></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="skills-card">
+					<h3>Other Tools</h3>
+					<div class="skills-container">
+						<table class="skills-table">
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+										alt="Git/Github"
+									/>
+								</td>
+								<td class="skills-p">
+									Git/Github<br /><span>Intermediate</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+										alt="Bootstrap"
+									/>
+								</td>
+								<td class="skills-p">
+									Bootstrap<br /><span>Intermediate</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="logo">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+										alt="Bash"
+									/>
+								</td>
+								<td class="skills-p">Bash<br /><span>Beginner</span></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="arrow">
+				<i class="bi bi-caret-up" onclick="location.href='./#about'"></i>
+				<i class="bi bi-caret-down" onclick="location.href='./#projects'"></i>
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>

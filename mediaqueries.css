@@ -1,0 +1,120 @@
+@media screen and (max-width: 1200px) {
+	/* NAVBAR */
+
+	nav {
+		justify-content: space-evenly;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: flex;
+	}
+
+	.bi-list {
+		font-size: 38px;
+	}
+
+	.hamburger-links {
+		display: none;
+	}
+
+	/* PROFILE SECTION */
+
+	#profile {
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.profile-picture {
+		height: 300px;
+	}
+
+	/* ARROW */
+	.arrow {
+		display: none;
+	}
+
+	/* ABOUT SECTION */
+
+	#about {
+		height: fit-content;
+		padding-top: 2rem;
+	}
+
+	.about-container {
+		flex-direction: column;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	.about-picture {
+		width: 278px;
+		height: auto;
+	}
+
+	.about-details {
+		width: 65%;
+		gap: 1.5rem;
+	}
+
+	/* SKILLS SECTION */
+
+	#skills {
+		height: fit-content;
+	}
+
+	.skills-cards {
+		margin: 0 5rem;
+	}
+
+	.skills-cards {
+		flex-direction: column;
+		padding: 2rem 10%;
+	}
+
+	.skills-card {
+		display: flex;
+		flex-direction: column;
+		padding: 1.25rem;
+		gap: 1rem;
+	}
+
+	table {
+		border-spacing: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/* NAVBAR */
+
+	.nav-title {
+		font-size: 1.5rem;
+	}
+
+	/* PROFILE SECTION */
+
+	.profile-h1 {
+		font-size: 2rem;
+	}
+
+	.profile-p2 {
+		font-size: 1.25rem;
+	}
+
+	/* SKILLS SECTION */
+
+	#skills {
+		padding-top: 2rem;
+	}
+
+	.skills-h2 {
+		padding-bottom: 1rem;
+	}
+
+	.skills-cards {
+		padding: 1rem 1%;
+	}
+}
